@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="eduford_img/logo.png" alt="">
+            </a>
+            <div class="nav-links">
+                <i class="fas fa-times"></i>
+                <ul> 
+                    <li>
+                        <a href="">
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                       <a href="">Course</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fas fa-bars"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint modi, cupiditate, deserunt excepturi non optio quo, <br> nulla ad accusantium explicabo architecto soluta consequatur tenetur neque dolorem quam laboriosam libero natus.
+            </p>
+            <a href="" class="hero-btn">
+                Visit us to know more
+            </a>
+        </div>
+    </section>
+    <section class="course">
+        <h1></h1>
+    </section>
+
+    <script>
+        var navlinks= document.querySelector(".nav-links")
+        document.querySelector(".fa-bars").addEventListener("click",()=>{
+            navlinks.style.right="0"
+        })
+        function hideMenu()
+        {
+            navlinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
